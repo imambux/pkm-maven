@@ -1,7 +1,9 @@
-# Maven Examples
+# Personal Knowledge Management for Maven
+
+This project has all the examples related to maven. Please travel through the commit history to see the more simpler status of the project.
 
 ## Requirements
-- JDK 21 
+- JDK 21
 - Maven 3.9.8
 
 ## JAR file
