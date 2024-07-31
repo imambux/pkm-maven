@@ -13,7 +13,7 @@ To create the JAR file
   mvn clean package
 ```
 
-To execute the JAR file
+To execute the JAR file, find the compiled jar in the target folder and also provide the dependency in the classpath
 ```shell
-  java -cp ./target/pkm-maven-1.0-SNAPSHOT.jar HelloWorld
+  java -cp pkm-maven-1.0-SNAPSHOT.jar:${HOME}/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar HelloWorld
 ```
