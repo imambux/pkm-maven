@@ -6,7 +6,7 @@ This project has all the examples related to maven. Please travel through the co
 - JDK 21
 - Maven 3.9.8
 
-## JAR file
+## Commands
 
 To create the executable JAR file
 ```shell
@@ -22,4 +22,9 @@ To execute the JAR file, find the packaged jar in the target folder and also mov
 To generate the site (complete information about your project)
 ```shell
  mvn site
+```
+
+To generate POJO from JSON schema via plugin
+```shell
+  mvn clean jsonschema2pojo:generate 
 ```
