@@ -13,7 +13,8 @@ To create the JAR file
   mvn package
 ```
 
-To execute the JAR file, find the compiled jar in the target folder and also provide the dependency in the classpath
+Since this is the thin JAR, so dependency is not included in the packages JAR but only added as a classpath. Java expects this dependency on the root where JAR file is executed.
+To execute the JAR file, find the packaged jar in the target folder and also move the external commons-lang3 JAR dependency in the target location manually.
 ```shell
-  java -cp pkm-maven-1.0-SNAPSHOT.jar:${HOME}/.m2/repository/org/apache/commons/commons-lang3/3.15.0/commons-lang3-3.15.0.jar HelloWorld
+  java -jar ${JAR_FILE}
 ```
