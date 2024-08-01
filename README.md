@@ -10,7 +10,7 @@ This project has all the examples related to maven. Please travel through the co
 
 To create the JAR file
 ```shell
-  mvn clean package
+  mvn package
 ```
 
 To execute the JAR file, find the compiled jar in the target folder and also provide the dependency in the classpath
