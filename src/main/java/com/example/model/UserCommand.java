@@ -1,4 +1,4 @@
-package model;
+package com.example.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class User {
+public class UserCommand {
     private String firstName;
     private String lastName;
     private int age;
