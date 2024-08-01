@@ -8,7 +8,7 @@ This project has all the examples related to maven. Please travel through the co
 
 ## JAR file
 
-To create the JAR file
+To create the executable JAR file
 ```shell
   mvn package
 ```
@@ -17,4 +17,9 @@ Since this is the thin JAR, so dependency is not included in the packages JAR bu
 To execute the JAR file, find the packaged jar in the target folder and also move the external commons-lang3 JAR dependency in the target location manually.
 ```shell
   java -jar ${JAR_FILE}
+```
+
+To generate the site (complete information about your project)
+```shell
+ mvn site
 ```
